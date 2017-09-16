@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Title</title>
+</head>
+<body>
+  <div class="container">
+      <button class="btn">BUTTON</button>
+      <button class="btn btn-success btn-lg btn-block active">BUTTON</button>
+      <button class="btn btn-danger disabled">BUTTON</button>
+      <div class="btn-group btn-group-vertical">
+          <input class="btn btn-danger" value="BUTTON1">
+          <input class="btn btn-danger" value="BUTTON2">
+          <input class="btn btn-danger" value="BUTTON3">
+          <a class="btn btn-primary" href="">link1...</a>
+          <a class="btn btn-primary" href="">link2...</a>
+          <a class="btn btn-primary" href="">link3...</a>
+
+      </div>
+      <hr>
+      <div class="btn-group"><!-按钮组实现下拉菜单->
+          <button class="btn btn-primary">Apple</button>
+          <button class="btn btn-primary">Samsung</button>
+          <div class="btn-group">
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Sony <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Tablet</a></li>
+                  <li><a href="#">Smartphone</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
